@@ -3,10 +3,13 @@ const user = {
   lastName: 'Doe',
 };
 
-//
+let {firstName="unknown",lastName="unknown",job="unknown"}=user;
 
-// export {
-//   firstName,
-//   lastName,
-//   job,
-// };
+//
+console.log(firstName,lastName)
+
+ export {
+   firstName,
+   lastName,
+   job,
+ };
